@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinaemerem | Frontend Developer</title>
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+ <button id="darkModeToggle" class="dark-toggle">
+  <i id="toggleIcon" class="fas fa-moon"></i>
+ </button>
+
+ <header class="hero">
+   <h1>Hi, I'm <span class="highlight">Chinaemerem</span></h1>
+   <h2><span id="typed-text"></span></h2>
+   <a href="#projects" class="btn-cta">View My Work</a>
+ </header>
+
+ <section class="about" id="about" data-aos="fade-left" data-aos-duration="8000">
+    <h2 class="about-me">About Me</h2>
+    <div class="about-img">
+      <img src="assets/profile.jpg" alt="Photo of Chinaemerem" class="profile-pic">
+      <p>I'm a frontend developer with a passion for interactive UI, clean code, and animations. I build web experiences that are beautiful and intuitive.</p>
+    </div>
+ </section>
+
+ <section id="tech-stack">
+   <h2>My Tech Stack</h2>
+    <div id="techCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+     <div class="carousel-inner">
+       <div class="carousel-item active">
+         <h3>HTML</h3>
+         <p>HTML is the standard markup language for creating web pages.</p>
+         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Learn More</a>
+       </div>
+
+       <div class="carousel-item">
+         <h3>CSS</h3>
+         <p>CSS is used to style and layout web pages.</p>
+         <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Learn More</a>
+       </div>
+
+       <div class="carousel-item">
+         <h3>JavaScript</h3>
+         <p>JavaScript is a programming language used to create dynamic web content.</p>
+         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">Learn More</a>
+       </div>
+
+       <div class="carousel-item">
+         <h3>React</h3>
+         <p>React is a JavaScript library for building user interfaces.</p>
+         <a href="https://reactjs.org" target="_blank">Learn More</a>
+       </div>
+     </div>
+    
+     <a class="carousel-control-prev" href="#techCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+     </a>
+     <a class="carousel-control-next" href="#techCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+     </a>
+   </div>
+ </section>
+
+
+ <section class="projects" id="projects">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card" data-aos="fade-up" data-aos-duration="3000">
+      <img src="./assets/Project1.PNG" alt="Project One"/>
+      <div class="project-info">
+        <h3>Crafting a seamless User Experience For A Crochet Business</h3>
+        <p>This project highlights my ability to create interactive, responsive, and visually appealing websites using HTML, CSS, Javascript, and Bootstrap.</p>
+        <a href="https://Rej-co.github.io/Hooks-Yarns/" class="btn-cta">Check it out</a>
+      </div>
+    </div>
+
+   <div class="project-card" data-aos="fade-up" data-aos-duration="3000">
+     <img src="./assets/Project2.PNG" alt="Project Two" />
+     <div class="project-info">
+      <h3>Weather App: A Real-Time Forcast UI Project</h3>
+      <p>This weather application showcases my frontend skills in building responsive, data-driven interfaces using HTML, CSS, Javascript, and API integration. It features real-time weather updates, dynamic visuals, and a clean user experience.</p>
+      <a href="https://Rej-co.github.io/weatherapp/" class="btn-cta">Check it out</a>
+     </div>
+   </div>
+  </div>
+ </section>
+
+ <section class="quote-section">
+  <h2>Programming Inspiration</h2>
+  <div class="quotes" data-aos="zoom-in" data-aos-duration="2000">
+    <p id="quote-text">"The only way to do great work is to love what you do."</p>
+    <p id="quote-author">- Steve Jobs</p>
+ </div>
+ </section>
+
+ <section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="5" placeholder="Your Message" required></textarea>
+    <a href="mailto:chinaogbuagu@gmail.com" class="button">Send Message</a>
+  </form>
+ </section>
+
+ <section class="connect">
+  <h2 class="lets-connect">Let's Connect</h2>
+  <div class="social-links">
+    <a href="https://github.com/Rej-co" target="_blank" class="social github">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/chinaemerem-o-464990133?trk=contact-info" target="_blank" class="social linkedin">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://twitter.com/Rej_co" target="_blank" class="social twitter">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="mailto:chinaogbuagu@gmail.com" class="social email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+ </section>
+
+ <footer>
+  <p>&copy; 2025 Chinaemerem Ogbuagu. All rights reserved.</p>
+ </footer>
+ 
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+ AOS.init();
+ </script>
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <script src="scripts.js"></script>
+</body>
+</html>
