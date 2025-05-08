@@ -210,7 +210,7 @@ form .button {
     transition: background-color 0.3s;
 }
 
-form button:hover {
+form .button:hover {
     background: #fff176;
 }
 
